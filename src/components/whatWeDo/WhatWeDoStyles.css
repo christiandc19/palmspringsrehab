@@ -1,0 +1,55 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.box {
+    height: auto;
+    width: 600px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.wrap .header {
+    text-align: center;
+    
+}
+
+.box img {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:600px) {
+
+
+    .box img {
+        display: none;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+
+.left button {
+    margin: 1rem auto;
+}
+}

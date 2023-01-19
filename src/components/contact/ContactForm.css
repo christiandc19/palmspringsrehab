@@ -1,0 +1,140 @@
+.contactForm-mainContainer {
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    position: relative;
+
+}
+
+.contactForm-mainContainer:before {
+    content: '';
+    position: absolute;
+    /* background: url('../../assets/footer-bg.webp') no-repeat center center/cover; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location p {
+    color: white;
+}
+
+.contactForm h1 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.location h1 {
+    color: white;
+}
+
+.contactForm .admission {
+    margin-bottom: 5rem;
+}
+
+.contact-container form {
+    height: 39rem;
+    width: 300px;
+    /* background: url('../../assets/menu-bg.jpg') no-repeat center center/cover; */
+    border-radius: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+form {
+    border: 1px black;
+    }
+
+.email-input {
+    height: 10rem;
+}
+
+.submit-btn button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.map .location-header {
+    color: var(--primary-color);
+}
+
+.map {
+    margin-top: 2rem;
+    margin-left: 6rem;
+    width: 50vw;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.user-input {
+    width: 15rem;
+    height: 1rem;
+    margin: 2rem;
+    display: block;
+    padding: 1.2rem;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 0.5rem;
+}
+
+.email-input {
+    height: 10rem;
+}
+
+textarea {
+    resize: none;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.submit-btn button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+/* 940px */
+@media screen and (max-width: 940px) {
+
+    .contactForm-mainContainer iframe {
+        display: none;
+    }
+
+    .contactForm .admission {
+        margin-bottom: 0;
+    }
+
+    .contactForm-mainContainer .map {
+        width: 100vw;
+        margin-left: 0rem;
+        padding: 0 10px;
+    }
+
+}
+
+
+/* 400px */
+@media screen and (max-width: 400px) {
+    .contactForm-mainContainer {
+        height: 145vh;
+    }
+    
+    }

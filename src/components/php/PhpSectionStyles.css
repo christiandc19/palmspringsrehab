@@ -1,0 +1,56 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+  
+  .box {
+      height: auto;
+      margin: 1rem;
+  }
+  
+  .wrap .header {
+      text-align: left;
+  }
+  
+  .box img {
+      border-radius: 10px;
+  }
+  
+  p {
+      font-size: 15px;
+  }
+  
+  
+  
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width:940px) {
+  
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .wrap .header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .wrap .box-btn button {
+        margin: 1rem auto;
+        
+    }
+}
+
+.job-link a {
+    color: rgb(72, 214, 103);
+}
+
+@media screen and (max-width:375px) {
+  .box img {
+      width: 100%;
+      height: 300px;
+  }
+}

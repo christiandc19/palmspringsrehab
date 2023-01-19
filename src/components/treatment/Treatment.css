@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+
+
+
+/* SECTION 1 */
+
+.treatment-1 .description1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content:center;
+    margin: auto;
+    padding: 2rem 0 4rem 0;
+}
+
+.flex-item-1 {
+    width: 550px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.flex-item-2 {
+    width: 550px;
+    padding: 10px;
+    text-align: justify;
+}
+.flex-item-3 {
+    width: 550px;
+    padding: 10px;
+
+}
+
+.flex-item-3 img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.treatment1-header {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.treatment-1 p {
+    font-size: 16px;
+}
+
+.revisions p, .recreations p {
+    font-size: 16px;
+    color: white;
+    padding: 25px;
+    text-align: justify;
+}
+
+.revisions h1, .recreations h1 {
+    text-align: center;
+}
+
+.activity-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+.activities  {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+.activities span {
+    color: white;
+}
+
+.activity-container {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: rgba(0, 0, 0, .5);
+    background-attachment: fixed;
+}
+
+
+.activity-container:before {
+    background: url('../../assets/activity.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    content: '';
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+}
+
+
+/*  */
+
+
+
+
+@media screen and (max-width:940px) {
+
+    .treatment .content {
+        width: 100%;
+        padding: 25px;
+    }
+
+
+    .treatment p {
+        font-size: 14px;
+    }
+
+    .service-1 {
+        margin: 1rem;
+    }
+
+    .service-1-image {
+        display: none;
+    }
+
+    .service-1-description {
+        width: 100%;    
+    }
+    
+    .service-1-description p{
+        width: 100%;   
+        font-size: 14px; 
+    }
+    
+    .service-1-description h1{
+        font-size: 25px; 
+    }
+
+    .activity-container {
+        height: 180vh;
+    }
+
+    .activity-container:before {
+        height: 180vh;
+    }
+}
+
